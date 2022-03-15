@@ -1,0 +1,6 @@
+{
+    "name": "youtube-search-api",
+    "version": 1.0,
+    "builds": [{"src": "*py", "use": "@MrAbhiX/now-flask"}],
+    "routes": [{"src": "/(.*)", "dest": "abhi.py"}]
+}
